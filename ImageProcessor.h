@@ -6,8 +6,20 @@
 //  Copyright (c) 2015 lyon 2. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ImageProcessor : UIViewController
+@protocol ImageProcessorDelegate <NSObject>
+
+- (void)imageProcessorFinishedProcessingWithImage:(UIImage*)outputImage;
+
+@end
+
+@interface ImageProcessor : NSObject
+
+@property (weak, nonatomic) id<ImageProcessorDelegate> delegate;
+
++ (instancetype)sharedProcessor;
+
+- (void)processImage:(UIImage*)inputImage;
 
 @end

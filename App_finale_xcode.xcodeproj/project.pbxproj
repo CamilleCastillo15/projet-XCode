@@ -21,6 +21,26 @@
 		3693DA251AFA6C6100EC1B09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3693DA071AFA6C6100EC1B09 /* UIKit.framework */; };
 		3693DA2D1AFA6C6100EC1B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3693DA2B1AFA6C6100EC1B09 /* InfoPlist.strings */; };
 		3693DA2F1AFA6C6100EC1B09 /* App_finale_xcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3693DA2E1AFA6C6100EC1B09 /* App_finale_xcodeTests.m */; };
+		3697130E1AFB9F95006BDC40 /* Tampons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3697130D1AFB9F95006BDC40 /* Tampons.m */; };
+		369713111AFBBBE4006BDC40 /* ImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 369713101AFBBBE4006BDC40 /* ImageProcessor.m */; };
+		369713141AFBBFC9006BDC40 /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 369713131AFBBFC9006BDC40 /* UIImage+OrientationFix.m */; };
+		369713161AFBD2EB006BDC40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369713151AFBD2EB006BDC40 /* CoreData.framework */; };
+		36BBE0A51B022AB20069B305 /* bouton_accueil_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE09F1B022AB20069B305 /* bouton_accueil_v2.png */; };
+		36BBE0A61B022AB20069B305 /* colormap_v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0A01B022AB20069B305 /* colormap_v3.png */; };
+		36BBE0A71B022AB20069B305 /* invert_v5.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0A11B022AB20069B305 /* invert_v5.png */; };
+		36BBE0A81B022AB20069B305 /* matrix_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0A21B022AB20069B305 /* matrix_v2.png */; };
+		36BBE0A91B022AB20069B305 /* posterize_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0A31B022AB20069B305 /* posterize_v2.png */; };
+		36BBE0AA1B022AB20069B305 /* sepia_v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0A41B022AB20069B305 /* sepia_v3.png */; };
+		36BBE0B71B02398F0069B305 /* bouton_ballon_v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0B31B02398F0069B305 /* bouton_ballon_v3.png */; };
+		36BBE0C41B0244760069B305 /* Title_v6.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0C31B0244760069B305 /* Title_v6.png */; };
+		36BBE0C91B0248760069B305 /* bouton_ghost_v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0C61B0248760069B305 /* bouton_ghost_v3.png */; };
+		36BBE0CA1B0248760069B305 /* bouton_smiley_v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0C71B0248760069B305 /* bouton_smiley_v3.png */; };
+		36BBE0CD1B02494D0069B305 /* bouton_ballon_v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0CB1B02494D0069B305 /* bouton_ballon_v3.png */; };
+		36BBE0D21B0249EA0069B305 /* bouton_flower_v5.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBE0D11B0249EA0069B305 /* bouton_flower_v5.png */; };
+		36BDA2EE1B14B7C7002BDFB5 /* ballon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BDA2EB1B14B7C7002BDFB5 /* ballon.png */; };
+		36BDA2EF1B14B7C7002BDFB5 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BDA2EC1B14B7C7002BDFB5 /* flower.png */; };
+		36BDA2F01B14B7C7002BDFB5 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BDA2ED1B14B7C7002BDFB5 /* smiley.png */; };
+		36C269CD1B00FC8300F2BCA1 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C269CC1B00FC8300F2BCA1 /* ghost.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +73,29 @@
 		3693DA2A1AFA6C6100EC1B09 /* App_finale_xcodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App_finale_xcodeTests-Info.plist"; sourceTree = "<group>"; };
 		3693DA2C1AFA6C6100EC1B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3693DA2E1AFA6C6100EC1B09 /* App_finale_xcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_finale_xcodeTests.m; sourceTree = "<group>"; };
+		3697130C1AFB9F95006BDC40 /* Tampons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tampons.h; path = ../Tampons.h; sourceTree = "<group>"; };
+		3697130D1AFB9F95006BDC40 /* Tampons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tampons.m; path = ../Tampons.m; sourceTree = "<group>"; };
+		3697130F1AFBBBE4006BDC40 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageProcessor.h; path = ../ImageProcessor.h; sourceTree = "<group>"; };
+		369713101AFBBBE4006BDC40 /* ImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageProcessor.m; path = ../ImageProcessor.m; sourceTree = "<group>"; };
+		369713121AFBBFC9006BDC40 /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OrientationFix.h"; path = "../UIImage+OrientationFix.h"; sourceTree = "<group>"; };
+		369713131AFBBFC9006BDC40 /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OrientationFix.m"; path = "../UIImage+OrientationFix.m"; sourceTree = "<group>"; };
+		369713151AFBD2EB006BDC40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36BBE09F1B022AB20069B305 /* bouton_accueil_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_accueil_v2.png; path = ../../Images/boutons/bouton_accueil_v2.png; sourceTree = "<group>"; };
+		36BBE0A01B022AB20069B305 /* colormap_v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colormap_v3.png; path = ../../Images/boutons/colormap_v3.png; sourceTree = "<group>"; };
+		36BBE0A11B022AB20069B305 /* invert_v5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = invert_v5.png; path = ../../Images/boutons/invert_v5.png; sourceTree = "<group>"; };
+		36BBE0A21B022AB20069B305 /* matrix_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = matrix_v2.png; path = ../../Images/boutons/matrix_v2.png; sourceTree = "<group>"; };
+		36BBE0A31B022AB20069B305 /* posterize_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = posterize_v2.png; path = ../../Images/boutons/posterize_v2.png; sourceTree = "<group>"; };
+		36BBE0A41B022AB20069B305 /* sepia_v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sepia_v3.png; path = ../../Images/boutons/sepia_v3.png; sourceTree = "<group>"; };
+		36BBE0B31B02398F0069B305 /* bouton_ballon_v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_ballon_v3.png; path = ../../Images/boutons/bouton_ballon_v3.png; sourceTree = "<group>"; };
+		36BBE0C31B0244760069B305 /* Title_v6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Title_v6.png; path = ../../Images/Title_v6.png; sourceTree = "<group>"; };
+		36BBE0C61B0248760069B305 /* bouton_ghost_v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_ghost_v3.png; path = ../../Images/boutons/bouton_ghost_v3.png; sourceTree = "<group>"; };
+		36BBE0C71B0248760069B305 /* bouton_smiley_v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_smiley_v3.png; path = ../../Images/boutons/bouton_smiley_v3.png; sourceTree = "<group>"; };
+		36BBE0CB1B02494D0069B305 /* bouton_ballon_v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_ballon_v3.png; path = ../../Images/boutons/bouton_ballon_v3.png; sourceTree = "<group>"; };
+		36BBE0D11B0249EA0069B305 /* bouton_flower_v5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_flower_v5.png; path = ../../Images/boutons/bouton_flower_v5.png; sourceTree = "<group>"; };
+		36BDA2EB1B14B7C7002BDFB5 /* ballon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ballon.png; path = ../Images/ballon.png; sourceTree = SOURCE_ROOT; };
+		36BDA2EC1B14B7C7002BDFB5 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flower.png; path = ../Images/flower.png; sourceTree = SOURCE_ROOT; };
+		36BDA2ED1B14B7C7002BDFB5 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiley.png; path = ../../Images/smiley.png; sourceTree = "<group>"; };
+		36C269CC1B00FC8300F2BCA1 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369713161AFBD2EB006BDC40 /* CoreData.framework in Frameworks */,
 				3693DA061AFA6C6100EC1B09 /* CoreGraphics.framework in Frameworks */,
 				3693DA081AFA6C6100EC1B09 /* UIKit.framework in Frameworks */,
 				3693DA041AFA6C6100EC1B09 /* Foundation.framework in Frameworks */,
@@ -101,6 +145,7 @@
 		3693DA021AFA6C6100EC1B09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				369713151AFBD2EB006BDC40 /* CoreData.framework */,
 				3693DA031AFA6C6100EC1B09 /* Foundation.framework */,
 				3693DA051AFA6C6100EC1B09 /* CoreGraphics.framework */,
 				3693DA071AFA6C6100EC1B09 /* UIKit.framework */,
@@ -117,6 +162,16 @@
 				3693DA151AFA6C6100EC1B09 /* Main.storyboard */,
 				3693DA181AFA6C6100EC1B09 /* ViewController.h */,
 				3693DA191AFA6C6100EC1B09 /* ViewController.m */,
+				3697130C1AFB9F95006BDC40 /* Tampons.h */,
+				3697130D1AFB9F95006BDC40 /* Tampons.m */,
+				3697130F1AFBBBE4006BDC40 /* ImageProcessor.h */,
+				369713101AFBBBE4006BDC40 /* ImageProcessor.m */,
+				36BDA2EB1B14B7C7002BDFB5 /* ballon.png */,
+				36BDA2EC1B14B7C7002BDFB5 /* flower.png */,
+				36BDA2ED1B14B7C7002BDFB5 /* smiley.png */,
+				369713121AFBBFC9006BDC40 /* UIImage+OrientationFix.h */,
+				369713131AFBBFC9006BDC40 /* UIImage+OrientationFix.m */,
+				36C269CC1B00FC8300F2BCA1 /* ghost.png */,
 				3693DA1B1AFA6C6100EC1B09 /* Images.xcassets */,
 				3693DA0A1AFA6C6100EC1B09 /* Supporting Files */,
 			);
@@ -126,6 +181,18 @@
 		3693DA0A1AFA6C6100EC1B09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36BBE0D11B0249EA0069B305 /* bouton_flower_v5.png */,
+				36BBE0CB1B02494D0069B305 /* bouton_ballon_v3.png */,
+				36BBE0C61B0248760069B305 /* bouton_ghost_v3.png */,
+				36BBE0C71B0248760069B305 /* bouton_smiley_v3.png */,
+				36BBE0C31B0244760069B305 /* Title_v6.png */,
+				36BBE0B31B02398F0069B305 /* bouton_ballon_v3.png */,
+				36BBE09F1B022AB20069B305 /* bouton_accueil_v2.png */,
+				36BBE0A01B022AB20069B305 /* colormap_v3.png */,
+				36BBE0A11B022AB20069B305 /* invert_v5.png */,
+				36BBE0A21B022AB20069B305 /* matrix_v2.png */,
+				36BBE0A31B022AB20069B305 /* posterize_v2.png */,
+				36BBE0A41B022AB20069B305 /* sepia_v3.png */,
 				3693DA0B1AFA6C6100EC1B09 /* App_finale_xcode-Info.plist */,
 				3693DA0C1AFA6C6100EC1B09 /* InfoPlist.strings */,
 				3693DA0F1AFA6C6100EC1B09 /* main.m */,
@@ -228,9 +295,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BDA2F01B14B7C7002BDFB5 /* smiley.png in Resources */,
+				36BBE0B71B02398F0069B305 /* bouton_ballon_v3.png in Resources */,
+				36BBE0C41B0244760069B305 /* Title_v6.png in Resources */,
+				36BDA2EF1B14B7C7002BDFB5 /* flower.png in Resources */,
 				3693DA1C1AFA6C6100EC1B09 /* Images.xcassets in Resources */,
+				36BDA2EE1B14B7C7002BDFB5 /* ballon.png in Resources */,
+				36C269CD1B00FC8300F2BCA1 /* ghost.png in Resources */,
+				36BBE0CD1B02494D0069B305 /* bouton_ballon_v3.png in Resources */,
 				3693DA0E1AFA6C6100EC1B09 /* InfoPlist.strings in Resources */,
+				36BBE0A51B022AB20069B305 /* bouton_accueil_v2.png in Resources */,
+				36BBE0A71B022AB20069B305 /* invert_v5.png in Resources */,
+				36BBE0CA1B0248760069B305 /* bouton_smiley_v3.png in Resources */,
+				36BBE0C91B0248760069B305 /* bouton_ghost_v3.png in Resources */,
+				36BBE0AA1B022AB20069B305 /* sepia_v3.png in Resources */,
+				36BBE0A61B022AB20069B305 /* colormap_v3.png in Resources */,
+				36BBE0D21B0249EA0069B305 /* bouton_flower_v5.png in Resources */,
 				3693DA171AFA6C6100EC1B09 /* Main.storyboard in Resources */,
+				36BBE0A81B022AB20069B305 /* matrix_v2.png in Resources */,
+				36BBE0A91B022AB20069B305 /* posterize_v2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369713141AFBBFC9006BDC40 /* UIImage+OrientationFix.m in Sources */,
 				3693DA1A1AFA6C6100EC1B09 /* ViewController.m in Sources */,
+				369713111AFBBBE4006BDC40 /* ImageProcessor.m in Sources */,
 				3693DA141AFA6C6100EC1B09 /* AppDelegate.m in Sources */,
+				3697130E1AFB9F95006BDC40 /* Tampons.m in Sources */,
 				3693DA101AFA6C6100EC1B09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +542,7 @@
 				3693DA341AFA6C6100EC1B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3693DA351AFA6C6100EC1B09 /* Build configuration list for PBXNativeTarget "App_finale_xcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +551,7 @@
 				3693DA371AFA6C6100EC1B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

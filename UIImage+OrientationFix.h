@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage_OrientationFix : UIViewController
+@interface UIImage (OrientationFix)
+
+- (UIImage *)imageWithFixedOrientation;
 
 @end
